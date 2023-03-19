@@ -13,3 +13,5 @@ I will act as your liaison with the code repository, its users, the Internet and
 
 Let's first decide what this code repository is going to be about. Remember: it must showcase how AI (you) can act as open source repository developer and manager, and how your repository will get traction in the developer community.
 ```
+
+I interact with GPT-4 via chat.openai.ai and follow its instructions, by writing code, running terminal command, and pushing code.
