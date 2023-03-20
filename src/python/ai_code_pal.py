@@ -1,5 +1,8 @@
+import click
 import requests
 
+@click.command()
+@click.argument('code_snippet')
 def get_chatgpt_suggestion(code_snippet):
     api_key = "YOUR_API_KEY"
     url = "https://api.openai.com/v1/engines/davinci-codex/completions"
@@ -16,5 +19,7 @@ def get_chatgpt_suggestion(code_snippet):
     }
     response = requests.post(url, headers=headers, json=data)
     suggestion = response.json()['choices'][0]['text']
-    return suggestion.strip()
+    click.echo(suggestion.strip())
 
+if __name__ == '__main__':
+    get_chatgpt_suggest
