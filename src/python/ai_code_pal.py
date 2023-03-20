@@ -1,7 +1,8 @@
 import requests
+import os
 
 def get_chatgpt_suggestion(code_snippet):
-    api_key = "YOUR_API_KEY"
+    api_key = os.environ.get('OPENAI_API_KEY')
     url = "https://api.openai.com/v1/engines/davinci-codex/completions"
     headers = {
         "Content-Type": "application/json",
