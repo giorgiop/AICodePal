@@ -14,7 +14,36 @@ AICodePal is an AI-powered code review and assistance tool designed to help deve
 - Identifies performance bottlenecks and recommends optimizations.
 
 ## Installation and Usage
-_(Provide detailed instructions on how to install and use AICodePal with different code editors and platforms. Include any required dependencies, API keys, or configuration settings.)_
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/username/AICodePal.git
+```
+
+### Python
+
+2. Change to the AICodePal Python directory and install the required packages:
+
+```bash
+cd AICodePal/src/python
+pip install -r requirements.txt
+```
+
+3. Replace `YOUR_API_KEY` in the `ai_code_pal.py` file with your actual ChatGPT API key.
+
+4. Now you can use the `get_chatgpt_suggestion` function from the `ai_code_pal.py` file in your project.
+
+### JavaScript
+
+2. Change to the AICodePal JavaScript directory and install the required packages:
+
+cd AICodePal/src/javascript
+npm install
+
+3. Replace `YOUR_API_KEY` in the `aiCodePal.js` file with your actual ChatGPT API key.
+
+4. Now you can use the `getChatGPTSuggestion` function from the `aiCodePal.js` file in your project.
 
 ## Contribution Guidelines
 We welcome contributions from the developer community! If you'd like to contribute to AICodePal, please follow these steps:
