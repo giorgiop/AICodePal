@@ -30,7 +30,7 @@ cd AICodePal/src/python
 pip install -r requirements.txt
 ```
 
-3. Replace `YOUR_API_KEY` in the `ai_code_pal.py` file with your actual ChatGPT API key.
+3. Set the environment variable `OPENAI_API_KEY` with your actual ChatGPT API key.
 
 4. Now you can use the `get_chatgpt_suggestion` function from the `ai_code_pal.py` file in your project.
 
